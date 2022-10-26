@@ -64,3 +64,8 @@
   .barcos .name {
     align-self: center;
   }
+
+  .imagenes {
+    width: 200px;
+    height: 200px;
+  }
