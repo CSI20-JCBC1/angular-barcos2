@@ -1,0 +1,7 @@
+<h2>Barcos</h2>
+<div class="barcos-menu">
+  <a *ngFor="let barco of barcos"
+    routerLink="/detail/{{barco.id}}">
+    {{barco.name}}
+  </a>
+</div>
